@@ -1,0 +1,33 @@
+@media screen and (max-width:510px) {
+
+    main {
+        width: 325px;
+        height: 500px;
+        padding: 20px;
+        box-shadow: 9px 9px 0px 0px var(--Black4);
+    }
+
+    figure {
+        background-position: center;
+    }
+
+
+    header>div {
+        width: 78px;
+        padding: 6px;
+        border-radius: 4px;
+    }
+
+    header>p {
+        font-size: 0.75em;
+    }
+
+    section>h1 {
+        font-size: 1.28em;
+    }
+
+    section>p{
+        font-size: 0.9em;
+    }
+
+}
