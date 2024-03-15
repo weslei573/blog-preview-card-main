@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
-:root{
+:root {
     --Yellow1: hsl(47, 88%, 63%);
- 
+
     --White2: hsl(0, 0%, 100%);
     --Grey3: hsl(0, 0%, 50%);
     --Black4: hsl(0, 0%, 7%);
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: var(--Yellow1);
     display: flex;
     flex-direction: column;
@@ -24,14 +24,65 @@ body{
     height: 100vh;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     background-color: var(--White2);
-    width: 400px;
-    height: 540px;
-    padding: 30px;
+    color: var(--Black4);
+    width: 385px;
+    height: 525px;
+    padding: 25px;
     border-radius: 20px;
     border: 1px solid var(--Black4);
     box-shadow: 10px 10px 2px 1px var(--Black4);
+    gap: 20px;
+}
+
+figure>img {
+    border-radius: 16px;
+}
+
+header>div {
+    background-color: var(--Yellow1);
+    font-family: 'FigtreeExtraBold';
+    font-size: 14px;
+    text-align: center;
+    width: 82px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+header>p{
+    font-family: 'FigtreeSemiBold';
+    font-size: 0.85em;
+}
+
+section>h1{
+    font-family: 'FigtreeExtraBold';
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+section>h1:hover{
+    color: var(--Yellow1);
+}
+
+section>p{
+    font-family: 'FigtreeSemiBold';
+    color: var(--Grey3);
+    font-size: 1em;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'FigtreeExtraBold';
+    font-size: 0.88em;
+}
+
+article>img{
+    width: 33px;
+    height: 33px;
 }
